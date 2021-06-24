@@ -43,4 +43,11 @@ public class InteractiveWhiteBoardController {
         String name = (String) request.getSession().getAttribute("name");
         return Board.getInstance().getUserColor(name);
     }
+
+    static int getPort() {
+        if (System.getenv("PORT") != null) {
+            return Integer.parseInt(System.getenv("PORT"));
+        }
+        return 35000;
+    }
 }
