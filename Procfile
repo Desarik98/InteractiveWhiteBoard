@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arsw.interactivewhiteboard.InteractiveWhiteBoardApplication
+web: java -Dserver.port=$PORT $JAVA_OPTS -cp "target/classes:target/dependency/*" edu.escuelaing.arsw.interactivewhiteboard.InteractiveWhiteBoardApplication
