@@ -18,7 +18,10 @@ public class Board {
     }
 
     public void addPoint(Point point){
-        pointList.add(point);
+        if(!pointList.contains(point)){
+            pointList.add(point);
+        }
+
     }
 
     public void restart(){
