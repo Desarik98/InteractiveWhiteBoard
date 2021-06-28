@@ -36,7 +36,7 @@ java -cp "target/classes;target/dependency/*" edu.escuelaing.arsw.interactivewhi
 * **User:** Clase en la cual se encuentran los datos como el nombre y el color que representa cada usuario.
 
 ## Pruebas de Usuario InteractiveWhiteBoard
-Para comprobar el funcionamiento se debe ir al link [https://picasfamasarsw.herokuapp.com]() en donde se encontrará el siguiente Home Page:
+Para comprobar el funcionamiento se debe ir al link [https://interactivewhiteboard.herokuapp.com/]() en donde se encontrará el siguiente Home Page:
 ![homePage](Images/homePage.png)
 
 Primero se deberá registrar con cualquier nombre con el que usted quiera ser representado y ya podrá dibujar con un color que lo representa. En este caso se tomo el nombre de Pedro y se dibujo en el tablero de Pedro
